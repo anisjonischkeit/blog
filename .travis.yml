@@ -11,10 +11,10 @@ env:
 
 sudo: false
 
-# # Caching so the next build will be fast too.
-# cache:
-#   directories:
-#   - $HOME/.stack
+# Caching so the next build will be fast too.
+cache:
+  directories:
+  - $HOME/.cabal
 
 # before_install:
 # # Download and unpack the stack executable

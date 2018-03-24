@@ -7,7 +7,7 @@ env:
   - ENCRYPTION_LABEL: "0ac6d80b3689"
   - COMMIT_AUTHOR_EMAIL: "travis@anis.com.au"
 
-sudo: false
+# sudo: false
 
 # Caching so the next build will be fast too.
 cache:

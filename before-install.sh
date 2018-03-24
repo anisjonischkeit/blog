@@ -1,11 +1,11 @@
 #!/bin/bash
 
-mkdir -v /var/cache/swap
+sudo mkdir -v /var/cache/swap
 cd /var/cache/swap
-dd if=/dev/zero of=swapfile bs=1K count=4M
-chmod 600 swapfile
-mkswap swapfile
-swapon swapfile
+sudo dd if=/dev/zero of=swapfile bs=1K count=4M
+sudo chmod 600 swapfile
+sudo mkswap swapfile
+sudo swapon swapfile
 
 mkdir -p ~/.local/bin
 export PATH=$HOME/.local/bin:$PATH

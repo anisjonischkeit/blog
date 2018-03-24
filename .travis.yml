@@ -1,2 +1,8 @@
 ghc:
   - "8.2.1"
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "0ac6d80b3689"
+  - COMMIT_AUTHOR_EMAIL: "travis@anis.com.au"

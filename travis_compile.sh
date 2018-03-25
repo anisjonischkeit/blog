@@ -2,7 +2,6 @@
 
 set -e # Exit with nonzero exit code if anything fails
 
-echo "hellos"
 cabal install blaze-markup
 cabal install hakyll
 ghc --make site.hs

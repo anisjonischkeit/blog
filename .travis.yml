@@ -4,6 +4,7 @@ ghc:
   - "8.2.1"
 
 script: bash ./deploy.sh
+
 env:
   global:
   - ENCRYPTION_LABEL: "0ac6d80b3689"
@@ -11,14 +12,7 @@ env:
 
 sudo: false
 
-
 # Caching so the next build will be fast too.
 cache:
   directories:
   - $HOME/.cabal
-
-# before_install:
-# # Download and unpack the stack executable
-# - mkdir -p ~/.local/bin
-# - export PATH=$HOME/.local/bin:$PATH
-# - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'

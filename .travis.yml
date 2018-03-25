@@ -32,10 +32,10 @@ addons:
     - ghc-8.2.2
 
 install:
-- stack --no-terminal build
+- travis_wait 40 stack --no-terminal build
 
 script:
-- stack --no-terminal exec site build
+- travis_wait 40 stack --no-terminal exec site build
 
 after_script:
 - ./after_install.sh

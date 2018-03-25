@@ -7,6 +7,7 @@ cabal install blaze-markup
 cabal install hakyll
 ghc --make site.hs
 ./site build
+cp -a _site/. out/
 # stack build
 # stack exec site build
 ls

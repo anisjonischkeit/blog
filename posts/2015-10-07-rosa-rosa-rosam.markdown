@@ -1,6 +1,7 @@
 ---
 title: Rosa Rosa Rosam
 author: Ovidius
+blurb: blurb lala 
 ---
 
 Suspendisse pharetra ullamcorper sem et auctor. Suspendisse vitae tellus eu

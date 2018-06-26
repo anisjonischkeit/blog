@@ -1,5 +1,6 @@
 ---
 title: Carpe Diem
+blurb: blurb lala 
 ---
 
 Fusce tortor quam, egestas in posuere quis, porttitor vel turpis. Donec

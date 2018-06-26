@@ -1,5 +1,6 @@
 <div className="backBtn">
-    <a href="/"><< go back</a>
+    <a href="/">
+        << go back</a>
 </div>
 
 <section id="main" class="wrapper style1">
@@ -7,12 +8,12 @@
         <header class="major">
             <h1>$title$</h1>
             <p>
-                Posted on $date$
-                $if(author)$
-                    by $author$
-                $endif$
+                Posted on $date$ $if(author)$ by $author$ $endif$
             </p>
-        </header><span class="image main"><img src="https://pixelarity.com/items/demos/reflex/light/images/pic05.jpg" alt=""></span>
+        </header>
+        <span class="image main">
+            <img src="/images/pic05.jpg" alt="">
+        </span>
         $body$
     </div>
 </section>
